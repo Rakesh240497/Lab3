@@ -1,0 +1,61 @@
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 2px solid rgb(205, 67, 67);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: lighter;
+}
+#btsp_btn{
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#nrml_btn{
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#btsp_btn:hover{
+    background-color: darkgreen;
+}
+#nrml_btn :hover{
+    background-color: rgb(221, 225, 214);
+}
+
+#maindiv{
+    padding : 30px;
+    align-self: center;
+    display:block;
+    background-color: rgb(153, 220, 220);
+    height: 550px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 20px rgb(26, 193, 193);
+}
+
+#body{
+    background-color: rgb(24, 24, 16);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61Az3R06qHL.png);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    backdrop-filter: blur(4px);
+}
